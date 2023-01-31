@@ -1,0 +1,196 @@
+:root {
+  background: #0f0f0f;
+}
+
+.color-white {
+  color: #fff;
+}
+
+.profile-img {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.work-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  place-content: space-between;
+}
+
+.w-90 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.w-95 {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.grid-4 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.grid-5 {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  gap: 10px;
+}
+
+.nav-header a {
+  margin-right: 30px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.text-small {
+  font-size: 12px;
+}
+
+.tags-el {
+  background: #272727;
+  border-radius: 5px;
+  -webkit-transition: background 700ms;
+  transition: background 700ms;
+  cursor: pointer;
+}
+
+.tags-el p {
+  font-size: 14px;
+  font-weight: 600;
+  padding: 10px 10px 10px 10px;
+}
+
+.tags-el:hover {
+  background: #cccccc;
+}
+
+.videos img {
+  border-radius: 10px;
+  -webkit-transition: opacity 400ms;
+  transition: opacity 400ms;
+}
+
+.videos img:hover {
+  opacity: 0.7;
+}
+
+.main-profile img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.cover-profile-img img {
+  width: 100%;
+  height: 220px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.subscribe-btn {
+  padding: 10px 8px 10px 8px;
+  background: #cccccc;
+  border-radius: 40px;
+  font-weight: 600;
+}
+
+.border-line {
+  width: 100%;
+  height: 1px;
+  background: #ccc;
+}
+
+.el-shorts img {
+  width: 220px;
+  height: 324.25px;
+  border-radius: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.main-videos-sd .vidmain {
+  width: 100%;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.channel-profs img {
+  width: 50px;
+  height: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+  border-radius: 50%;
+}
+
+input[type=text] {
+  width: 40%;
+  background: #0f0f0f;
+  border-bottom: 1px solid #ccc;
+  outline: none;
+  color: white;
+}
+
+.comment-profile {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: center;
+     object-position: center;
+}
+
+.user-comments .imgprofileimg {
+  width: 55px !important;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #ccc;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.re-vid-el img {
+  width: 170px;
+  height: 80px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+  -webkit-transition: -webkit-transform 400ms;
+  transition: -webkit-transform 400ms;
+  transition: transform 400ms;
+  transition: transform 400ms, -webkit-transform 400ms;
+  cursor: pointer;
+}
+
+.re-vid-el img:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=stylemain.css.map */
