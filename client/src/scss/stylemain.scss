@@ -6,6 +6,12 @@
     color: #fff;
 }
 
+.grid-6{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    gap: 10px;
+}
+
 .profile-img{
     width: 25px;
     height: 25px;
@@ -152,7 +158,7 @@ input[type=text]{
 
 .user-comments{
     & .imgprofileimg{
-        width: 55px !important;
+        width: 80px !important;
         height: 40px;
         border-radius: 50%;
         border: 1px solid #ccc;
@@ -172,5 +178,20 @@ input[type=text]{
 
     & img:hover{
         transform: scale(1.1);
+    }
+}
+
+.main-shorts-el{
+    & img{
+        // width: 350px;
+        height: 350px;
+        object-fit: cover;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: opacity 400ms;
+    }
+
+    & img:hover{
+        opacity: 0.7;
     }
 }

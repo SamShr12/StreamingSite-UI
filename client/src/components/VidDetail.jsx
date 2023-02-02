@@ -9,7 +9,7 @@ function VidDetail() {
         <Nav />
       </div>
       <div className='w-90'>
-        <div className='main-videos-sd flex w-11/12 gap-6'>
+        <div className='main-videos-sd flex w-11/12 gap-6 mb-10'>
           {/* section 1 */}
           <div className='section-1'>
           <img src="https://samyam.netlify.app/assets/dawn1.9483bf4b.jpg" alt="" className='vidmain' />
@@ -60,21 +60,21 @@ function VidDetail() {
             <div className='recommended-vidoes'>
               {/* videl1 */}
                 <div className='re-vid-el flex gap-2 mb-3'>
-                  <img src="" alt="" />
-                  <div className='my-3'>
-                    <h2 className='font-bold text-sm text-[#fff] '>Hello Python </h2>
+                  <img src="https://samyam.netlify.app/assets/portisoroom.d1f242c7.png" alt="" />
+                  <div className='my-3 w-12/12'>
+                    <h2 className='font-bold text-sm text-[#fff] '>Hello Python gods </h2>
                     <p className='font-bold text-small text-[#fff]'>SamyamTV</p>
-                    <p className='font-bold text-small text-[#fff]'>115M views</p>
+                    {/* <p className='font-bold text-small text-[#fff]'>115M views</p> */}
                   </div>
                 </div>
                 {/* videl1end */}
                 {/* videl1 */}
                 <div className='re-vid-el flex gap-2'>
-                  <img src="" alt="" />
+                  <img src="https://samyam.netlify.app/assets/portisoroom.d1f242c7.png" alt="" />
                   <div className='my-3'>
                     <h2 className='font-bold text-sm text-[#fff] '>Hello Python </h2>
                     <p className='font-bold text-small text-[#fff]'>SamyamTV</p>
-                    <p className='font-bold text-small text-[#fff]'>115M views</p>
+                    {/* <p className='font-bold text-small text-[#fff]'>115M views</p>   */}
                   </div>
                 </div>
                 {/* videl1end */}

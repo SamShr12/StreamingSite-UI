@@ -23,6 +23,42 @@ function Home() {
                 <Videos />
 
             </div>
+            <section className='shorts mt-10'>
+            <h2 className='text-[#fff] font-bold text-xl'>Stream Shorts</h2>
+                <div className='grid-6 mt-2'>
+                    {/* start */}
+                <div className='main-shorts-el'>
+                    <img src="https://samyam.netlify.app/assets/Knightinarmour.1e3a6e45.jpg" alt="" />
+                    <div>
+                        <h2 className='font-bold text-[#fff]'>White night</h2>
+                        <p className='text-small font-light text-[#fff]'>102K Views</p>
+                    </div>
+                </div>
+                {/* stop */}
+                {/* start */}
+                <div className='main-shorts-el'>
+                    <img src="https://samyam.netlify.app/assets/Knightinarmour.1e3a6e45.jpg" alt="" />
+                    <div>
+                        <h2 className='font-bold text-[#fff]'>White night</h2>
+                        <p className='text-small font-light text-[#fff]'>102K Views</p>
+                    </div>
+                </div>
+                {/* stop */}
+                {/* start */}
+                <div className='main-shorts-el'>
+                    <img src="https://samyam.netlify.app/assets/Knightinarmour.1e3a6e45.jpg" alt="" />
+                    <div>
+                        <h2 className='font-bold text-[#fff]'>White night</h2>
+                        <p className='text-small font-light text-[#fff]'>102K Views</p>
+                    </div>
+                </div>
+                {/* stop */}
+                </div>
+                <div>
+                    <Videos />
+                </div>
+                
+            </section>
         </section>
     </section>
   )
