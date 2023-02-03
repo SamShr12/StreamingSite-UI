@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom"
-import { Home, Profile, VidDetail } from "./components"
+import { Dashboard, Home, Profile, VidDetail } from "./components"
 
 function App() {
 
@@ -9,6 +9,8 @@ function App() {
         <Route path="/" element={<Home />}/>
         <Route path="/user/@sam" element={<Profile />}/>
         <Route path="/video/:name" element={<VidDetail />}/>
+
+        <Route path="/user/channel/create" element={<Dashboard />} />
       </Routes>
     </div>
   )
